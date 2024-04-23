@@ -1,0 +1,169 @@
+@import "../../vars.css";
+
+.container {
+    position: relative;
+    background-color: rgba(12, 12, 12, 0.6);
+    border-radius: 15px;
+    padding: 73px;
+    margin-top: 129px;
+    z-index: 1;
+}
+
+.title {
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+
+.details {
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    background: #19376d;
+    background: linear-gradient(80deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
+}
+
+.aboutImage {
+    width: 20%;
+    border-radius: 10px;
+}
+
+.aboutItems {
+    color: var(--color-text);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 20px;
+
+    max-height: 100vh; /* Set maximum height to viewport height */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds max height */
+}
+
+.aboutItem1 {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    list-style: none;
+    padding: 25px;
+    background-image: linear-gradient(90deg, rgba(165, 215, 232, 0.42) 0%, rgba(255, 255, 255, 0) 100%);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+}
+
+.history {
+overflow-y: auto;
+max-height: 350px; 
+}
+
+.history::-webkit-scrollbar {
+  width: 35px; /* Width of the scrollbar */
+}
+
+
+.historyItem img {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    width: 120px;
+}
+
+.justifyText {
+    text-align: justify;
+}
+
+.toggleButtons {
+    display: flex;
+    gap: 10px; /* Add some spacing between buttons */
+    padding-bottom: 10px;
+}
+
+
+.toggleButtons h3 {
+    cursor: pointer;
+    margin: 0;
+    padding: 10px 15px; /* Adjust padding for better button size */
+    font-size: 20px; /* Adjust font size if needed */
+    border-radius: 8px; /* Optional: Add border radius for rounded corners */
+}
+
+.toggleButtons h3:hover {
+    background-color: rgba(165, 215, 232, 0.42); /* Hover effect */
+}
+
+.aboutItem2 {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    list-style: none;
+    padding: 25px;
+    background-image: linear-gradient(90deg, rgba(165, 215, 232, 0.42) 0%, rgba(255, 255, 255, 0) 100%);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+}
+
+.aboutItem1 h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.aboutItem2 h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.aboutItem1 p {
+    font-size: 25px;
+}
+
+.aboutItem2 p {
+    font-size: 25px;
+}
+
+@media screen and (max-width: 830px) {
+    .container {
+        background-color: transparent;
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .aboutImage {
+        display: none;
+    }
+
+    .aboutItems {
+        margin-top: 29px;
+    }
+
+    .aboutItem1 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .aboutItem2 {
+        display: flex;
+        align-items: center;
+        justify-content: center; /* Center horizontally */
+    }
+    
+    .toggleButtons {
+        display: flex;
+        gap: 10px; /* Add some spacing between buttons */
+        justify-content: center; /* Center horizontally */
+    }
+    
+}

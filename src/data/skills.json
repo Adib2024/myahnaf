@@ -1,0 +1,50 @@
+[
+    {
+        "title": "HTML",
+        "imageSrc": "skills/html.png"
+    },
+    {
+        "title": "CSS",
+        "imageSrc": "skills/css.png"
+    },
+    {
+        "title": "php",
+        "imageSrc": "skills/php.png"
+    },
+    {
+        "title": "C/C++",
+        "imageSrc": "skills/C.png"
+    },
+    {
+        "title": "Python",
+        "imageSrc": "skills/python.png"
+    },
+    {
+        "title": "C#",
+        "imageSrc": "skills/C s.png"
+    },
+    {
+        "title": "Kali Linux",
+        "imageSrc": "skills/kali.png"
+    },
+    {
+        "title": "Linux",
+        "imageSrc": "skills/linux.png"
+    },
+    {
+        "title": "Autocad",
+        "imageSrc": "skills/autocad.png"
+    },
+    {
+        "title": "Ansys",
+        "imageSrc": "skills/ansys.png"
+    },   
+    {
+        "title": "CATIA",
+        "imageSrc": "skills/Catia.png"
+    },
+    {
+        "title": "Power BI",
+        "imageSrc": "skills/powerBI.png"
+    }
+]

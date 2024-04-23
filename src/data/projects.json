@@ -1,0 +1,27 @@
+[
+    {
+      "title": "DEFECT DETECTION ON METAL SURFACE USING DEEP LEARNING",
+      
+      "description": "Data preparation pipelines were developed to improve data quality and quantity for training deep learning models. Hyperparameter tuning techniques were applied to enhance model performance. Various deep learning models were trained and deployed using popular frameworks, with comprehensive model evaluation conducted to assess overall performance.",
+      "skills": ["YOLO", "Python", "Google Colab", "CNN", "matplotlib", "pandas"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    },
+    {
+      "title": "WEB-BASED MONITORING SYSTEM OF PCB MACHINE",
+     
+      "description": "Designed and developed a Machine Performance Monitoring System using Python, PHP, SQL, Apache, and MySQL, with Raspberry Pi 4 as the system server. Implemented data processing optimization for real-time monitoring, conducted performance metrics analysis, and developed a user-friendly web interface for data visualization and monitoring.",
+      "skills": ["HTML", "CSS", "Javascript", "NodeJs", "MySQL", "PHP", "NodeJs"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    },
+    {
+      "title": "ELEVATOR SYSTEM SIMULATION UTILIZING OOP PRINCIPLES",
+     
+      "description": "The Elevator Simulation project involved developing a sophisticated software system using a multi-tier architecture and OOP principles in C++. Efficient communication protocols like MQTT were implemented for seamless coordination, and advanced data management techniques using SQLite were employed for intelligent decision-making and system adaptability.",
+      "skills": ["C++", "SQLite", "OOP", "UML", "Arduino", "Electrical", "GUI"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    }
+  ]
+  
