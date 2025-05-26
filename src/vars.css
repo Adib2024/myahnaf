@@ -1,12 +1,12 @@
 :root {
-    /* Colours */
-    --color-text: #fff;
-    --color-primary: #576cbc;
-    --color-secondary: #19376d;
-    --color-dark: #0b2447;
-    --color-bg: #04152d;
+  /* Modern Cloud/Tech Theme Colors */
+  --color-text: #ffffff;
+  --color-primary: #4a90e2;
+  --color-secondary: #2c3e50;
+  --color-dark: #1a2634;
+  --color-bg: #0a192f;
+  --color-accent: #64ffda;
   
-    /* Fonts */
-    --font-roboto: "Roboto";
-  }
-  
+  /* Fonts */
+  --font-roboto: "Roboto";
+}

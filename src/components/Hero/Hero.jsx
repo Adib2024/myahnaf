@@ -1,5 +1,4 @@
 import React from "react";
-
 import styles from "./Hero.module.css";
 import { getImageUrl } from "../../utils";
 
@@ -9,18 +8,20 @@ export const Hero = () => {
             <div className={styles.content}>
                 <h1 className={styles.title}>Hi, I'm Adib</h1>
                 <p className={styles.description}>
-                    Welcome to my portfolio!<br/>
-                    <br/>
-                    I am a dedicated and ambitious Mechatronic Engineering <br/>
-                    graduate with a passion for technology and innovation.<br/>
-                    
-                    I have a keen interest in leveraging technology to solve real-world <br/>
-                    problems and contribute to the development of cutting-edge solutions.
+                    Cloud and DevOps Engineer
                 </p>
-
-                <a href="mailto:adibahnaf24@email.com" className={styles.contactBtn}>
-                    Contact Me
-                </a>
+                <p className={styles.subtitle}>
+                    Specializing in cloud infrastructure, automation, and system deployment across AWS, Azure, and GCP.
+                    Certified in Azure Administration, Google Cloud Security, and AWS re/Start Graduate.
+                </p>
+                <div className={styles.buttonContainer}>
+                    <a href="mailto:adibahnaf24@email.com" className={styles.contactBtn}>
+                        Contact Me
+                    </a>
+                    <a href="#projects" className={styles.projectsBtn}>
+                        View Projects
+                    </a>
+                </div>
             </div>
             <img
                 src={getImageUrl("hero/Adib.png")}

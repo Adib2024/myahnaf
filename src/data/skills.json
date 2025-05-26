@@ -1,50 +1,50 @@
 [
     {
-        "title": "HTML",
-        "imageSrc": "skills/html.png"
+        "title": "AWS",
+        "imageSrc": "skills/aws.png"
     },
     {
-        "title": "CSS",
-        "imageSrc": "skills/css.png"
+        "title": "Azure",
+        "imageSrc": "skills/azure.png"
     },
     {
-        "title": "php",
-        "imageSrc": "skills/php.png"
+        "title": "GCP",
+        "imageSrc": "skills/gcp.png"
     },
     {
-        "title": "C/C++",
-        "imageSrc": "skills/C.png"
+        "title": "Docker",
+        "imageSrc": "skills/docker.png"
+    },
+    {
+        "title": "Kubernetes",
+        "imageSrc": "skills/kubernetes.png"
+    },
+    {
+        "title": "Terraform",
+        "imageSrc": "skills/terraform.png"
     },
     {
         "title": "Python",
         "imageSrc": "skills/python.png"
     },
     {
-        "title": "C#",
-        "imageSrc": "skills/C s.png"
-    },
-    {
-        "title": "Kali Linux",
-        "imageSrc": "skills/kali.png"
+        "title": "Node.js",
+        "imageSrc": "skills/nodejs.png"
     },
     {
         "title": "Linux",
         "imageSrc": "skills/linux.png"
     },
     {
-        "title": "Autocad",
-        "imageSrc": "skills/autocad.png"
+        "title": "Git",
+        "imageSrc": "skills/git.png"
     },
     {
-        "title": "Ansys",
-        "imageSrc": "skills/ansys.png"
-    },   
-    {
-        "title": "CATIA",
-        "imageSrc": "skills/Catia.png"
+        "title": "Jenkins",
+        "imageSrc": "skills/jenkins.png"
     },
     {
-        "title": "Power BI",
-        "imageSrc": "skills/powerBI.png"
+        "title": "Prometheus",
+        "imageSrc": "skills/prometheus.png"
     }
 ]
