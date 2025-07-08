@@ -357,7 +357,11 @@ const Index = () => {
             <CardContent className="p-8">
               <h3 className="text-2xl font-bold mb-4 text-blue-400">Education</h3>
               <div className="space-y-4">
-                <div>
+              <div>
+                  <h4 className="text-xl font-semibold text-white">AWS re/start Training Program</h4>
+                  <p className="text-gray-300">World Education Placement Services (WEPS)</p>
+                  <p className="text-gray-400">Cloud Practitioner: Pass | 2025 – 2024</p>
+                </div><div>
                   <h4 className="text-xl font-semibold text-white">B.Eng Mechatronic Engineering</h4>
                   <p className="text-gray-300">Universiti Malaysia Pahang & Hochschule Karlsruhe, Germany</p>
                   <p className="text-gray-400">CGPA: 3.68 | 2019 – 2024</p>
