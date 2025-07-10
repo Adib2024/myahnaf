@@ -218,8 +218,9 @@ const Index = () => {
               period="2022 – 2023"
               achievements={[
                 "Conducted time studies and process optimization in production environments",
-                "Achieved 12.8% reduction in cycle time for Wire Bonding process",
-                "Built dashboards using Tableau and BEATS tools"
+                "Optimized line layout with LEAN and KAIZEN to reduce operator movement",
+                "Proposed 12.8% reduction in cycle time for Wire Bonding process",
+                "Participated in daily meetings with cross-functional teams to solve production bottlenecks"
               ]}
             />
           </div>
