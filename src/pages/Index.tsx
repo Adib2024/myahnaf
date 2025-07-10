@@ -207,9 +207,9 @@ const Index = () => {
               company="CET Development"
               period="2024 – Present"
               achievements={[
-                "Configured and deployed cloud infrastructure (Ubuntu, VMware ESXi, Cisco, Aruba) for government clients",
-                "Provided Level 1 cloud support and troubleshooting for VMware Cloud Foundation",
-                "Performed DR drills and infrastructure health checks"
+                "Configured managed network switches including Cisco Catalyst, Aruba, and H3C; conducted full connectivity testing and performance validation",
+                "Conducted system diagnostics and health checks across servers, switches, and storage systems.",
+                "Managed and supported VMware Cloud Foundation (VCF) environments, providing Level 1 troubleshooting and monitoring for client virtual infrastructure"
               ]}
             />
             <ExperienceCard
