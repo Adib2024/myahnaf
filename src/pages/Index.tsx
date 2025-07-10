@@ -209,9 +209,9 @@ const Index = () => {
               achievements={[
                 "Configured managed network switches including Cisco Catalyst, Aruba, and H3C",
                 "Conducted full connectivity testing and performance validation",
-                "Conducted system diagnostics and health checks across servers, switches, and storage systems",
+                "Performed system diagnostics and health checks across servers, switches, and storage systems",
                 "Managed and supported VMware Cloud Foundation (VCF) environments",
-                "Providing Level 1 troubleshooting and monitoring for client virtual infrastructure"
+                "Provide Level 1 troubleshooting and monitoring for client virtual infrastructure"
               ]}
             />
             <ExperienceCard
