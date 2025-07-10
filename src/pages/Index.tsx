@@ -363,7 +363,7 @@ const Index = () => {
               <div>
                   <h4 className="text-xl font-semibold text-white">AWS re/start Training Program</h4>
                   <p className="text-gray-300">World Education Placement Services (WEPS)</p>
-                  <p className="text-gray-400">Cloud Practitioner: Pass | 2025 – 2024</p>
+                  <p className="text-gray-400">Cloud Practitioner: Pass | 2025 </p>
                 </div><div>
                   <h4 className="text-xl font-semibold text-white">B.Eng Mechatronic Engineering</h4>
                   <p className="text-gray-300">Universiti Malaysia Pahang & Hochschule Karlsruhe, Germany</p>
