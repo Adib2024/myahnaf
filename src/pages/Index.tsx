@@ -207,9 +207,11 @@ const Index = () => {
               company="CET Development"
               period="2024 – Present"
               achievements={[
-                "Configured managed network switches including Cisco Catalyst, Aruba, and H3C; conducted full connectivity testing and performance validation",
-                "Conducted system diagnostics and health checks across servers, switches, and storage systems.",
-                "Managed and supported VMware Cloud Foundation (VCF) environments, providing Level 1 troubleshooting and monitoring for client virtual infrastructure"
+                "Configured managed network switches including Cisco Catalyst, Aruba, and H3C",
+                "Conducted full connectivity testing and performance validation",
+                "Conducted system diagnostics and health checks across servers, switches, and storage systems",
+                "Managed and supported VMware Cloud Foundation (VCF) environments",
+                "Providing Level 1 troubleshooting and monitoring for client virtual infrastructure"
               ]}
             />
             <ExperienceCard
