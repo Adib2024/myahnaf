@@ -24,7 +24,7 @@ export const CertificationCard = ({
 
   return (
     <CardComponent {...cardProps}>
-      <Card className="bg-slate-800/40 border-slate-700/50 backdrop-blur-sm hover:bg-slate-800/60 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-blue-500/5 group h-full cursor-pointer">
+      <Card className="bg-slate-900/40 border-slate-800 backdrop-blur-sm shadow-[0_4px_20px_rgba(0,0,0,0.1)] hover:-translate-y-1 hover:border-blue-500/30 transition-all duration-300 text-left group h-full cursor-pointer">
         <CardContent className="p-6 md:p-8">
           <div className="flex items-start justify-between mb-4">
             <Award className="h-8 w-8 text-blue-500 group-hover:text-blue-400 transition-colors duration-300" />

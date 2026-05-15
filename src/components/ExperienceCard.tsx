@@ -18,7 +18,7 @@ export const ExperienceCard = ({
   achievements 
 }: ExperienceCardProps) => {
   return (
-    <Card className="bg-slate-800/40 border-slate-700/50 backdrop-blur-sm hover:bg-slate-800/60 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-blue-500/5 group">
+    <Card className="bg-slate-900/40 border-slate-800 backdrop-blur-sm shadow-[0_4px_20px_rgba(0,0,0,0.1)] hover:-translate-y-1 hover:border-blue-500/30 transition-all duration-300 text-left group">
       <CardContent className="p-6 md:p-8">
         <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-6">
           <div className="mb-4 md:mb-0">

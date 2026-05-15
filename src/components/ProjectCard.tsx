@@ -15,14 +15,14 @@ export const ProjectCard = ({
   highlight 
 }: ProjectCardProps) => {
   return (
-    <Card className="bg-slate-800/40 border-slate-700/50 backdrop-blur-sm hover:bg-slate-800/60 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-blue-500/5 group h-full flex flex-col">
+    <Card className="bg-slate-900/40 border-slate-800 backdrop-blur-sm shadow-[0_4px_20px_rgba(0,0,0,0.1)] hover:-translate-y-1 hover:border-blue-500/30 transition-all duration-300 text-left group h-full flex flex-col">
       <CardHeader className="pb-4">
         <div className="flex justify-between items-start mb-3 gap-4">
           <CardTitle className="text-xl font-bold text-white group-hover:text-blue-400 transition-colors duration-300 leading-tight">
             {title}
           </CardTitle>
           {highlight && (
-            <Badge className="bg-blue-500/20 text-blue-300 hover:bg-blue-500/30 border-blue-500/30 whitespace-nowrap">
+            <Badge className="bg-blue-500/10 text-blue-400 hover:bg-blue-500/20 border-blue-500/20 whitespace-nowrap">
               {highlight}
             </Badge>
           )}
