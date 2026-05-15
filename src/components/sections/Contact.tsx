@@ -17,7 +17,7 @@ export const Contact = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div>
               <p className="text-lg text-gray-300 mb-8 leading-relaxed">
-                I'm currently open to new opportunities in Cloud Support Engineering and System Administration. 
+                I'm currently open to new opportunities in Cloud Support Engineering and System Administration.
                 Whether you have a question or just want to say hi, I'll try my best to get back to you!
               </p>
               <div className="space-y-6">
@@ -27,7 +27,7 @@ export const Contact = () => {
                   </div>
                   <div>
                     <p className="text-sm text-gray-500">Email</p>
-                    <p className="font-medium text-white">adibahnaf242@gmail.com</p>
+                    <p className="font-medium text-white">adibahnaf24@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-4 text-gray-300">
@@ -36,7 +36,7 @@ export const Contact = () => {
                   </div>
                   <div>
                     <p className="text-sm text-gray-500">Phone</p>
-                    <p className="font-medium text-white">+60 17 618 6372</p>
+                    <p className="font-medium text-white">+60 17 840 6682</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-4 text-gray-300">
@@ -45,7 +45,7 @@ export const Contact = () => {
                   </div>
                   <div>
                     <p className="text-sm text-gray-500">Location</p>
-                    <p className="font-medium text-white">Cyberjaya, Selangor, Malaysia</p>
+                    <p className="font-medium text-white">Bangi, Selangor, Malaysia</p>
                   </div>
                 </div>
               </div>
@@ -66,8 +66,8 @@ export const Contact = () => {
                   </div>
                   <div className="space-y-2">
                     <label className="text-sm font-medium text-gray-400">Message</label>
-                    <Textarea 
-                      className="bg-slate-950/50 border-slate-800 text-white min-h-[150px] focus:border-blue-500/50 transition-colors" 
+                    <Textarea
+                      className="bg-slate-950/50 border-slate-800 text-white min-h-[150px] focus:border-blue-500/50 transition-colors"
                       placeholder="Your message here..."
                     />
                   </div>
