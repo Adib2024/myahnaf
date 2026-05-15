@@ -35,7 +35,7 @@ export const Experience = () => {
             <ExperienceCard
               title="Intern"
               company="Infineon Technologies"
-              period="2022 – 2023"
+              period="August 2022 – January 2023"
               achievements={[
                 "Conducted time studies and process optimization in production environments.",
                 "Optimized line layout with LEAN and KAIZEN methodologies to reduce operator movement.",
