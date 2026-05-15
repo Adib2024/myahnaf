@@ -5,10 +5,12 @@ import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent } from "@/components/ui/card";
 import { Mail, MapPin, Phone, CheckCircle2, XCircle } from "lucide-react";
 import { ScrollReveal } from "@/components/ScrollReveal";
+import { useTranslation } from "react-i18next";
 
 export const Contact = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitResult, setSubmitResult] = useState<{ type: 'success' | 'error', message: string } | null>(null);
+  const { t } = useTranslation();
 
   const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -28,13 +30,13 @@ export const Contact = () => {
       const data = await response.json();
 
       if (data.success) {
-        setSubmitResult({ type: 'success', message: "Success! Your message has been sent." });
+        setSubmitResult({ type: 'success', message: t('contact.form.success') });
         form.reset();
       } else {
-        setSubmitResult({ type: 'error', message: data.message || "Error submitting form." });
+        setSubmitResult({ type: 'error', message: data.message || t('contact.form.error') });
       }
     } catch (error) {
-      setSubmitResult({ type: 'error', message: "Something went wrong. Please try again later." });
+      setSubmitResult({ type: 'error', message: t('contact.form.unknownError') });
     } finally {
       setIsSubmitting(false);
       // Auto-hide the message after 5 seconds
@@ -48,13 +50,12 @@ export const Contact = () => {
         <ScrollReveal>
           <h2 className="text-3xl font-bold text-white mb-16 flex items-center gap-4">
             <span className="w-8 h-px bg-blue-500"></span>
-            Get In Touch
+            {t('contact.title')}
           </h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div>
               <p className="text-lg text-gray-300 mb-8 leading-relaxed">
-                I'm currently open to new opportunities in Cloud Support Engineering and System Administration.
-                Whether you have a question or just want to say hi, I'll try my best to get back to you!
+                {t('contact.desc')}
               </p>
               <div className="space-y-6">
                 <div className="flex items-center gap-4 text-gray-300">
@@ -62,7 +63,7 @@ export const Contact = () => {
                     <Mail className="h-5 w-5 text-blue-500" />
                   </div>
                   <div>
-                    <p className="text-sm text-gray-500">Email</p>
+                    <p className="text-sm text-gray-500">{t('contact.email')}</p>
                     <p className="font-medium text-white">adibahnaf24@gmail.com</p>
                   </div>
                 </div>
@@ -71,7 +72,7 @@ export const Contact = () => {
                     <Phone className="h-5 w-5 text-blue-500" />
                   </div>
                   <div>
-                    <p className="text-sm text-gray-500">Phone</p>
+                    <p className="text-sm text-gray-500">{t('contact.phone')}</p>
                     <p className="font-medium text-white">+60 17 840 6682</p>
                   </div>
                 </div>
@@ -80,7 +81,7 @@ export const Contact = () => {
                     <MapPin className="h-5 w-5 text-blue-500" />
                   </div>
                   <div>
-                    <p className="text-sm text-gray-500">Location</p>
+                    <p className="text-sm text-gray-500">{t('contact.location')}</p>
                     <p className="font-medium text-white">Bangi, Selangor, Malaysia</p>
                   </div>
                 </div>
@@ -92,21 +93,21 @@ export const Contact = () => {
                 <form onSubmit={onSubmit} className="space-y-6">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="space-y-2">
-                      <label className="text-sm font-medium text-gray-400">Name</label>
-                      <Input name="name" required className="bg-slate-950/50 border-slate-800 text-white focus:border-blue-500/50 transition-colors" placeholder="Abu Kasim" disabled={isSubmitting} />
+                      <label className="text-sm font-medium text-gray-400">{t('contact.form.name')}</label>
+                      <Input name="name" required className="bg-slate-950/50 border-slate-800 text-white focus:border-blue-500/50 transition-colors" placeholder={t('contact.form.namePlaceholder')} disabled={isSubmitting} />
                     </div>
                     <div className="space-y-2">
-                      <label className="text-sm font-medium text-gray-400">Email</label>
-                      <Input type="email" name="email" required className="bg-slate-950/50 border-slate-800 text-white focus:border-blue-500/50 transition-colors" placeholder="abukasim@example.com" disabled={isSubmitting} />
+                      <label className="text-sm font-medium text-gray-400">{t('contact.form.email')}</label>
+                      <Input type="email" name="email" required className="bg-slate-950/50 border-slate-800 text-white focus:border-blue-500/50 transition-colors" placeholder={t('contact.form.emailPlaceholder')} disabled={isSubmitting} />
                     </div>
                   </div>
                   <div className="space-y-2">
-                    <label className="text-sm font-medium text-gray-400">Message</label>
+                    <label className="text-sm font-medium text-gray-400">{t('contact.form.message')}</label>
                     <Textarea
                       name="message"
                       required
                       className="bg-slate-950/50 border-slate-800 text-white min-h-[150px] focus:border-blue-500/50 transition-colors"
-                      placeholder="Your message here..."
+                      placeholder={t('contact.form.messagePlaceholder')}
                       disabled={isSubmitting}
                     />
                   </div>
@@ -119,7 +120,7 @@ export const Contact = () => {
                   )}
 
                   <Button type="submit" disabled={isSubmitting} className="w-full bg-blue-600 hover:bg-blue-700 text-white py-6 text-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-blue-500/20 disabled:opacity-70 disabled:hover:translate-y-0">
-                    {isSubmitting ? "Sending..." : "Send Message"}
+                    {isSubmitting ? t('contact.form.sending') : t('contact.form.send')}
                   </Button>
                 </form>
               </CardContent>

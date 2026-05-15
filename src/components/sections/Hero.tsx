@@ -1,8 +1,11 @@
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, ArrowRight, Download, BadgeCheck } from "lucide-react";
 import { ScrollReveal } from "@/components/ScrollReveal";
+import { useTranslation } from "react-i18next";
 
 export const Hero = () => {
+  const { t } = useTranslation();
+
   const scrollToSection = (sectionId: string) => {
     document.getElementById(sectionId)?.scrollIntoView({ behavior: "smooth" });
   };
@@ -12,9 +15,9 @@ export const Hero = () => {
       <div className="container mx-auto px-6 text-center relative z-10 pt-32">
         <ScrollReveal>
           <h1 className="text-5xl md:text-7xl font-bold mb-8 text-white tracking-tight leading-tight">
-            Muhammad Adib Ahnaf
+            {t('hero.name')}
             <span className="block text-2xl md:text-4xl text-blue-400 font-medium mt-4">
-              Cloud Support Engineer | Backup Administrator
+              {t('hero.role')}
             </span>
           </h1>
           
@@ -23,7 +26,7 @@ export const Hero = () => {
               onClick={() => scrollToSection("about")}
               className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 text-lg font-medium transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-blue-500/20 rounded-full"
             >
-              Learn More <ArrowRight className="ml-2 h-5 w-5" />
+              {t('hero.learnMore')} <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
             
             <Button 
@@ -31,7 +34,7 @@ export const Hero = () => {
               className="border-slate-600 text-gray-300 hover:bg-slate-800 hover:border-blue-500/50 hover:text-white px-8 py-6 text-lg font-medium transition-all duration-300 hover:-translate-y-1 rounded-full"
             >
               <Download className="mr-2 h-5 w-5" />
-              Download Resume
+              {t('hero.downloadResume')}
             </Button>
           </div>
 

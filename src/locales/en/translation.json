@@ -1,0 +1,138 @@
+{
+  "nav": {
+    "home": "home",
+    "about": "about",
+    "experience": "experience",
+    "projects": "projects",
+    "skills": "skills",
+    "certifications": "certifications",
+    "contact": "contact"
+  },
+  "hero": {
+    "name": "Muhammad Adib Ahnaf",
+    "role": "Cloud Support Engineer | Backup Administrator",
+    "learnMore": "Learn More",
+    "downloadResume": "Download Resume"
+  },
+  "about": {
+    "title": "About Me",
+    "p1": "I am a dedicated <1>Cloud Support Engineer</1> with a strong focus on enterprise backup solutions and cloud infrastructure. Specializing in technologies like Dell Avamar, Data Domain, Azure, and Google Cloud, I ensure high availability and robust disaster recovery for critical business operations.",
+    "p2": "Beyond traditional infrastructure, I bridge the gap between operations and development. By leveraging my scripting and programming skills in Python, Node.js, and Google Apps Script, I build automation tools and operational dashboards that streamline workflows, reduce manual toil, and enhance team efficiency.",
+    "stats": {
+      "platforms": "Cloud Platforms",
+      "backup": "Backup & Recovery",
+      "automation": "Tools & Scripts"
+    }
+  },
+  "experience": {
+    "title": "Work Experience",
+    "job1": {
+      "title": "Backup Administrator (Client: TNB)",
+      "company": "Impressive Communications Sdn Bhd",
+      "period": "Oct 2025 - Present",
+      "achievements": [
+        "Administering EMC Avamar and Data Domain to maintain 99.9% availability.",
+        "Ensuring strict RPO and RTO compliance to prevent business disruption.",
+        "Successfully recovering a 4.13TB SQL Server database during a critical escalation.",
+        "Leading an Avamar system upgrade with zero downtime."
+      ]
+    },
+    "job2": {
+      "title": "System Engineer",
+      "company": "CET Development Sdn Bhd",
+      "period": "Oct 2024 - Sept 2025",
+      "achievements": [
+        "Focused on Lenovo server deployment and configuration for enterprise infrastructure.",
+        "Conducted Cisco and Aruba networking troubleshooting to ensure optimal connectivity.",
+        "Performed comprehensive hardware health checks and system diagnostics across data center environments."
+      ]
+    },
+    "job3": {
+      "title": "Intern",
+      "company": "Infineon Technologies",
+      "period": "Aug 2022 – Jan 2023",
+      "achievements": [
+        "Conducted time studies and process optimization in production environments.",
+        "Optimized line layout with LEAN and KAIZEN methodologies to reduce operator movement.",
+        "Proposed a 12.8% reduction in cycle time for the Wire Bonding process.",
+        "Participated in daily meetings with cross-functional teams to solve production bottlenecks."
+      ]
+    }
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "proj1": {
+      "title": "VantageFlow Operations Suite",
+      "description": "A comprehensive automation tooling platform designed to streamline logistics and QA inventory management. Built with secure Role-Based Access Control (RBAC), real-time inventory tracking, and custom approval workflows.",
+      "highlight": "Automation"
+    },
+    "proj2": {
+      "title": "Cloud Infrastructure & Storage Expansions",
+      "description": "Enterprise-level cloud infrastructure management encompassing critical OS migrations, seamless storage expansions, and server health optimization across secure environments.",
+      "highlight": "Infrastructure"
+    },
+    "proj3": {
+      "title": "Metal Surface Defect Detection",
+      "description": "Deep learning solution for industrial quality control using advanced CNN architectures to identify manufacturing defects in real-time.",
+      "highlight": "AI/ML"
+    },
+    "proj4": {
+      "title": "Web-Based PCB Monitoring",
+      "description": "Real-time IoT monitoring system integrating hardware sensors with web dashboards for production oversight.",
+      "highlight": "IoT"
+    }
+  },
+  "skills": {
+    "title": "Technical Skills",
+    "categories": {
+      "backup": "Backup & Storage",
+      "cloud": "Cloud & Platform",
+      "programming": "Programming",
+      "infrastructure": "Infrastructure"
+    }
+  },
+  "certifications": {
+    "title": "Certifications & Education",
+    "education": "Education",
+    "cert1": "Google Certified Program: Professional Cloud Architect (PCA) - In Progress",
+    "cert2": "AWS Certified: AWS Certified Cloud Practitioner",
+    "cert3": "Microsoft Certified: Azure Administrator (AZ-104)",
+    "cert4": "Microsoft Certified: Azure Fundamentals (AZ-900)",
+    "cert5": "Google Certified Program: Professional Cloud Security Engineer",
+    "cert6": "B2 of German Listening, Writing, Oral 2023",
+    "deg1": {
+      "title": "B.Eng Mechatronic Engineering",
+      "school": "Universiti Malaysia Pahang & Hochschule Karlsruhe, Germany"
+    },
+    "deg2": {
+      "title": "Pre-University: Science (Technical)",
+      "school": "Kedah Matriculation College"
+    }
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "desc": "I'm currently open to new opportunities in Cloud Support Engineering and System Administration. Whether you have a question or just want to say hi, I'll try my best to get back to you!",
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Location",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": "Success! Your message has been sent.",
+      "error": "Error submitting form.",
+      "unknownError": "Something went wrong. Please try again later.",
+      "namePlaceholder": "Abu Kasim",
+      "emailPlaceholder": "abukasim@example.com",
+      "messagePlaceholder": "Your message here..."
+    }
+  },
+  "footer": {
+    "builtWith": "Built with React & Tailwind.",
+    "lang1": "English (Fluent)",
+    "lang2": "Bahasa Malaysia (Native)",
+    "lang3": "German (B2)"
+  }
+}

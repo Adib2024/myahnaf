@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Globe } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const navItems = ["home", "about", "experience", "projects", "skills", "certifications", "contact"];
 
@@ -7,6 +8,7 @@ export const Navbar = () => {
   const [activeSection, setActiveSection] = useState("home");
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const { t, i18n } = useTranslation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -31,6 +33,10 @@ export const Navbar = () => {
     setIsMobileMenuOpen(false);
   };
 
+  const toggleLanguage = () => {
+    i18n.changeLanguage(i18n.language === 'en' ? 'de' : 'en');
+  };
+
   return (
     <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ease-out ${
       isScrolled 
@@ -43,7 +49,7 @@ export const Navbar = () => {
             Muhammad Adib Ahnaf
           </div>
           
-          <div className="hidden md:flex space-x-8">
+          <div className="hidden md:flex space-x-8 items-center">
             {navItems.map((section) => (
               <button
                 key={section}
@@ -52,17 +58,34 @@ export const Navbar = () => {
                   activeSection === section ? "text-blue-400" : "text-gray-400 hover:text-white"
                 }`}
               >
-                {section}
+                {t(`nav.${section}`)}
               </button>
             ))}
+            
+            <button 
+              onClick={toggleLanguage}
+              className="flex items-center gap-2 text-sm font-medium text-gray-300 hover:text-white transition-colors bg-slate-800/50 hover:bg-slate-700/50 px-3 py-1.5 rounded-full border border-slate-700"
+            >
+              <Globe className="h-4 w-4" />
+              {i18n.language.toUpperCase()}
+            </button>
           </div>
 
-          <button
-            className="md:hidden text-gray-300 hover:text-white transition-colors"
-            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-          >
-            {isMobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-          </button>
+          <div className="md:hidden flex items-center gap-4">
+            <button 
+              onClick={toggleLanguage}
+              className="flex items-center gap-2 text-xs font-medium text-gray-300 hover:text-white transition-colors bg-slate-800/50 px-2 py-1 rounded-full border border-slate-700"
+            >
+              <Globe className="h-3 w-3" />
+              {i18n.language.toUpperCase()}
+            </button>
+            <button
+              className="text-gray-300 hover:text-white transition-colors"
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            >
+              {isMobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+            </button>
+          </div>
         </div>
 
         {isMobileMenuOpen && (
@@ -75,7 +98,7 @@ export const Navbar = () => {
                   activeSection === section ? "text-blue-400 bg-blue-500/10" : "text-gray-300 hover:text-white hover:bg-slate-800/50"
                 }`}
               >
-                {section}
+                {t(`nav.${section}`)}
               </button>
             ))}
           </div>

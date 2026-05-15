@@ -1,0 +1,138 @@
+{
+  "nav": {
+    "home": "start",
+    "about": "über mich",
+    "experience": "erfahrung",
+    "projects": "projekte",
+    "skills": "fähigkeiten",
+    "certifications": "zertifikate",
+    "contact": "kontakt"
+  },
+  "hero": {
+    "name": "Muhammad Adib Ahnaf",
+    "role": "Cloud Support Engineer | Backup Administrator",
+    "learnMore": "Mehr erfahren",
+    "downloadResume": "Lebenslauf herunterladen"
+  },
+  "about": {
+    "title": "Über mich",
+    "p1": "Ich bin ein engagierter <1>Cloud Support Engineer</1> mit einem starken Fokus auf Enterprise-Backup-Lösungen und Cloud-Infrastruktur. Spezialisiert auf Technologien wie Dell Avamar, Data Domain, Azure und Google Cloud stelle ich hohe Verfügbarkeit und robuste Notfallwiederherstellung für kritische Geschäftsabläufe sicher.",
+    "p2": "Über die traditionelle Infrastruktur hinaus bilde ich die Brücke zwischen Operations und Development. Durch meine Skript- und Programmierkenntnisse in Python, Node.js und Google Apps Script entwickle ich Automatisierungstools und operative Dashboards, die Arbeitsabläufe optimieren, manuelle Arbeit reduzieren und die Teameffizienz steigern.",
+    "stats": {
+      "platforms": "Cloud-Plattformen",
+      "backup": "Backup & Recovery",
+      "automation": "Tools & Skripte"
+    }
+  },
+  "experience": {
+    "title": "Berufserfahrung",
+    "job1": {
+      "title": "Backup Administrator (Kunde: TNB)",
+      "company": "Impressive Communications Sdn Bhd",
+      "period": "Okt 2025 - Heute",
+      "achievements": [
+        "Verwaltung von EMC Avamar und Data Domain zur Aufrechterhaltung einer Verfügbarkeit von 99,9%.",
+        "Sicherstellung der strikten Einhaltung von RPO und RTO zur Vermeidung von Betriebsunterbrechungen.",
+        "Erfolgreiche Wiederherstellung einer 4,13 TB SQL Server-Datenbank während einer kritischen Eskalation.",
+        "Leitung eines Avamar-System-Upgrades ohne Ausfallzeit."
+      ]
+    },
+    "job2": {
+      "title": "Systemingenieur (System Engineer)",
+      "company": "CET Development Sdn Bhd",
+      "period": "Okt 2024 - Sept 2025",
+      "achievements": [
+        "Fokussiert auf die Bereitstellung und Konfiguration von Lenovo-Servern für Unternehmens-Infrastrukturen.",
+        "Durchführung von Cisco- und Aruba-Netzwerk-Fehlerbehebungen zur Gewährleistung optimaler Konnektivität.",
+        "Durchführung umfassender Hardware-Gesundheitsprüfungen und Systemdiagnosen in Rechenzentrumsumgebungen."
+      ]
+    },
+    "job3": {
+      "title": "Praktikant",
+      "company": "Infineon Technologies",
+      "period": "Aug 2022 – Jan 2023",
+      "achievements": [
+        "Durchführung von Zeitstudien und Prozessoptimierungen in Produktionsumgebungen.",
+        "Optimierung des Linienlayouts mit LEAN- und KAIZEN-Methoden zur Reduzierung von Bedienerbewegungen.",
+        "Vorschlag einer Reduzierung der Zykluszeit um 12,8% für den Wire-Bonding-Prozess.",
+        "Teilnahme an täglichen Meetings mit funktionsübergreifenden Teams zur Lösung von Produktionsengpässen."
+      ]
+    }
+  },
+  "projects": {
+    "title": "Ausgewählte Projekte",
+    "proj1": {
+      "title": "VantageFlow Operations Suite",
+      "description": "Eine umfassende Automatisierungsplattform zur Optimierung des Logistik- und QS-Bestandsmanagements. Ausgestattet mit sicherer rollenbasierter Zugriffskontrolle (RBAC), Echtzeit-Bestandsverfolgung und benutzerdefinierten Genehmigungsworkflows.",
+      "highlight": "Automatisierung"
+    },
+    "proj2": {
+      "title": "Cloud-Infrastruktur & Speichererweiterungen",
+      "description": "Management der Cloud-Infrastruktur auf Unternehmensebene, umfassend kritische OS-Migrationen, nahtlose Speichererweiterungen und Optimierung der Servergesundheit in sicheren Umgebungen.",
+      "highlight": "Infrastruktur"
+    },
+    "proj3": {
+      "title": "Erkennung von Metalloberflächendefekten",
+      "description": "Deep-Learning-Lösung für die industrielle Qualitätskontrolle unter Verwendung fortschrittlicher CNN-Architekturen zur Identifizierung von Fertigungsfehlern in Echtzeit.",
+      "highlight": "KI/ML"
+    },
+    "proj4": {
+      "title": "Webbasierte Leiterplattenüberwachung (PCB)",
+      "description": "Echtzeit-IoT-Überwachungssystem, das Hardware-Sensoren mit Web-Dashboards zur Produktionsüberwachung integriert.",
+      "highlight": "IoT"
+    }
+  },
+  "skills": {
+    "title": "Technische Fähigkeiten",
+    "categories": {
+      "backup": "Backup & Speicher",
+      "cloud": "Cloud & Plattform",
+      "programming": "Programmierung",
+      "infrastructure": "Infrastruktur"
+    }
+  },
+  "certifications": {
+    "title": "Zertifikate & Ausbildung",
+    "education": "Ausbildung",
+    "cert1": "Google Certified Program: Professional Cloud Architect (PCA) - In Bearbeitung",
+    "cert2": "AWS Certified: AWS Certified Cloud Practitioner",
+    "cert3": "Microsoft Certified: Azure Administrator (AZ-104)",
+    "cert4": "Microsoft Certified: Azure Fundamentals (AZ-900)",
+    "cert5": "Google Certified Program: Professional Cloud Security Engineer",
+    "cert6": "B2 Zertifikat Deutsch (Hören, Schreiben, Sprechen) 2023",
+    "deg1": {
+      "title": "B.Eng Mechatronik Engineering",
+      "school": "Universiti Malaysia Pahang & Hochschule Karlsruhe, Deutschland"
+    },
+    "deg2": {
+      "title": "Studienkolleg: Naturwissenschaften (Technik)",
+      "school": "Kedah Matriculation College"
+    }
+  },
+  "contact": {
+    "title": "Kontakt aufnehmen",
+    "desc": "Ich bin derzeit offen für neue berufliche Möglichkeiten in den Bereichen Cloud Support Engineering und Systemadministration. Egal, ob Sie eine Frage haben oder einfach nur Hallo sagen möchten, ich werde mein Bestes tun, um mich bei Ihnen zu melden!",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "location": "Standort",
+    "form": {
+      "name": "Name",
+      "email": "E-Mail",
+      "message": "Nachricht",
+      "send": "Nachricht senden",
+      "sending": "Wird gesendet...",
+      "success": "Erfolg! Ihre Nachricht wurde gesendet.",
+      "error": "Fehler beim Senden des Formulars.",
+      "unknownError": "Etwas ist schiefgelaufen. Bitte versuchen Sie es später noch einmal.",
+      "namePlaceholder": "Max Mustermann",
+      "emailPlaceholder": "max@beispiel.de",
+      "messagePlaceholder": "Ihre Nachricht hier..."
+    }
+  },
+  "footer": {
+    "builtWith": "Erstellt mit React & Tailwind.",
+    "lang1": "Englisch (Fließend)",
+    "lang2": "Bahasa Malaysia (Muttersprache)",
+    "lang3": "Deutsch (B2)"
+  }
+}

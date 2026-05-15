@@ -1,47 +1,36 @@
 import { ExperienceCard } from "@/components/ExperienceCard";
 import { ScrollReveal } from "@/components/ScrollReveal";
+import { useTranslation } from "react-i18next";
 
 export const Experience = () => {
+  const { t } = useTranslation();
+
   return (
     <section id="experience" className="py-32 relative">
       <div className="container mx-auto px-6">
         <ScrollReveal>
           <h2 className="text-3xl font-bold text-white mb-16 flex items-center gap-4">
             <span className="w-8 h-px bg-blue-500"></span>
-            Work Experience
+            {t('experience.title')}
           </h2>
           <div className="max-w-4xl space-y-8">
             <ExperienceCard
-              title="Backup Administrator (Client: TNB)"
-              company="Impressive Communications Sdn Bhd"
-              period="Oct 2025 - Present"
-              achievements={[
-                "Administering EMC Avamar and Data Domain to maintain 99.9% availability.",
-                "Ensuring strict RPO and RTO compliance to prevent business disruption.",
-                "Successfully recovering a 4.13TB SQL Server database during a critical escalation.",
-                "Leading an Avamar system upgrade with zero downtime."
-              ]}
+              title={t('experience.job1.title')}
+              company={t('experience.job1.company')}
+              period={t('experience.job1.period')}
+              achievements={t('experience.job1.achievements', { returnObjects: true }) as string[]}
             />
             <ExperienceCard
-              title="System Engineer"
-              company="CET Development Sdn Bhd"
-              period="Oct 2024 - Sept 2025"
-              achievements={[
-                "Focused on Lenovo server deployment and configuration for enterprise infrastructure.",
-                "Conducted Cisco and Aruba networking troubleshooting to ensure optimal connectivity.",
-                "Performed comprehensive hardware health checks and system diagnostics across data center environments."
-              ]}
+              title={t('experience.job2.title')}
+              company={t('experience.job2.company')}
+              period={t('experience.job2.period')}
+              achievements={t('experience.job2.achievements', { returnObjects: true }) as string[]}
             />
             <ExperienceCard
-              title="Intern"
-              company="Infineon Technologies"
-              period="Aug 2022 – Jan 2023"
-              achievements={[
-                "Conducted time studies and process optimization in production environments.",
-                "Optimized line layout with LEAN and KAIZEN methodologies to reduce operator movement.",
-                "Proposed a 12.8% reduction in cycle time for the Wire Bonding process.",
-                "Participated in daily meetings with cross-functional teams to solve production bottlenecks."
-              ]}
+              title={t('experience.job3.title')}
+              company={t('experience.job3.company')}
+              period={t('experience.job3.period')}
+              achievements={t('experience.job3.achievements', { returnObjects: true }) as string[]}
             />
           </div>
         </ScrollReveal>
